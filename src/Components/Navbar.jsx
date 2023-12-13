@@ -2,8 +2,7 @@ import '../Style/Navbar.css'
 
 function Navbar(){
     return(
-        <div class = 'navbar'>
-            <img src="" alt="" />
+        <div className = 'navbar'>
             <p >HOME</p>
             <p>SOBRE NÓS</p>
             <p>CONTATO</p>

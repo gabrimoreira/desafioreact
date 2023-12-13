@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    background-color: aqua;
+    width: 100%;
+    margin-top: 100vh;
+    font-size: 20px;
+    padding: 20px;
+    color: aliceblue;
+    background-color: black;
+}
