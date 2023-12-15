@@ -12,6 +12,7 @@
     justify-content: end;
     flex-wrap: wrap;
     position: fixed;
+    z-index: 1;
 }
 .navbar p{
     padding: 10px;
