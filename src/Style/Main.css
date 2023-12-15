@@ -12,3 +12,8 @@
     align-items: center;
     flex-direction: column;
 }
+
+.chamada{
+    margin-right: auto;
+    color:rgb(240, 231, 220);
+}
