@@ -5,6 +5,7 @@ import TitleText from "../Components/TitleText"
 import NumberList from "../Components/NumberList"
 import Depoimentos from "../Components/Depoimentos"
 import "../Style/Main.css"
+import Depoimentos from "../Components/Depoimentos"
 
 
 
