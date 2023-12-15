@@ -1,0 +1,13 @@
+.sessao{
+    width: 100%;
+}
+
+.titulo{
+    text-align: center;
+}
+.item{
+    list-style: none;
+    font-size: 30px;
+    padding: 5px;
+    margin-right: auto;
+}
