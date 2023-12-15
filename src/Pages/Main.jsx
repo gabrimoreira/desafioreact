@@ -3,6 +3,7 @@ import Footer from "../Components/Footer"
 import Slider from "../Components/Slider"
 import TitleText from "../Components/TitleText"
 import NumberList from "../Components/NumberList"
+import Depoimentos from "../Components/Depoimentos"
 import "../Style/Main.css"
 
 
@@ -24,7 +25,9 @@ function Main(){
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo sapiente officia neque, ratione nostrum doloremque, dignissimos incidunt ab, ex vitae fugiat. Harum perferendis commodi aut. Nobis deserunt amet eum ab."
       />
             <NumberList numeros={numeros} titulo = {"Nosso Números(2022)"} />
+            <Depoimentos/>
             <Footer/>
+            
         </div>
     )
 }
