@@ -1,0 +1,50 @@
+.mainRedes{
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #c1d2e0;
+}
+.redes {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #706262;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.redes h1 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.redes .icones {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.redes .icones a {
+  display: block;
+  text-decoration: none;
+}
+
+.redes .icones a:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+@media (max-width:500px) {
+  .redes {
+    width: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #706262;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+}

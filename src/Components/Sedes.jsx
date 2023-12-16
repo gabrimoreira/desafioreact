@@ -33,7 +33,7 @@ console.log(Sedes)
         <>
         <section className="main-container">
             <h1 className="titulo">
-            Serviços
+            Sedes
             </h1>
             <div className="cards">
                 {Sedes.map((Sede) => (
