@@ -1,10 +1,10 @@
-import header1 from "../Images/header1.jpg"
+
 import "../Style/Header.css"
-function Header(){
+function Header(props){
     return(
         <div className="header">
-            <img src={header1} alt="Fundo do header" />
-            <h1>SOBRE NÓS</h1>
+            <img src={props.imagem} alt="Fundo do header" />
+            <h1 className="titulo">{props.titulo}</h1>
         </div>
     )
 }
