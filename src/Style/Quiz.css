@@ -130,6 +130,7 @@
     .nextQuiz{
       width: 30px;
       min-height: 10px;
+      font-size: 8px;
     }
     .pergunta{
         font-size: 3vw;
