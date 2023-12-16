@@ -1,7 +1,7 @@
 import "../Style/Quiz.css";
 import Navbar from "../Components/Navbar"
 import Footer from "../Components/Footer"
-import React, {useState} from 'react';
+import React, {useState,useEffect} from 'react';
 function Quiz() {
   const selecionado = (evento) => {
     //Pega o elemento html
@@ -26,7 +26,7 @@ function Quiz() {
         {alternativa: 'A', pontos: 1},
         {alternativa: 'B', pontos: 2},
         {alternativa: 'C', pontos: 3},
-        {alternativa: 'D', pontos: 4},
+        {alternativa: 'D', pontos: 5},
       ]
     },
     {
@@ -35,7 +35,7 @@ function Quiz() {
         {alternativa: 'A' , pontos: 1},
         {alternativa: 'B', pontos: 2},
         {alternativa: 'C', pontos: 3},
-        {alternativa: 'D', pontos: 4},
+        {alternativa: 'D', pontos: 5},
       ]
     },
     {
@@ -44,7 +44,7 @@ function Quiz() {
         {alternativa: 'A' , pontos: 1},
         {alternativa: 'B', pontos: 2},
         {alternativa: 'C', pontos: 3},
-        {alternativa: 'D', pontos: 4},
+        {alternativa: 'D', pontos: 5},
       ]
     },
     {
@@ -53,18 +53,25 @@ function Quiz() {
         {alternativa: 'A' , pontos: 1},
         {alternativa: 'B', pontos: 2},
         {alternativa: 'C', pontos: 3},
-        {alternativa: 'D', pontos: 4},
+        {alternativa: 'D', pontos: 5},
       ]
     }
   ]
   const [Total, setTotal] = useState(0);
-  const [perguntaAtual, setPerguntaAtual] = useState(0);
+
   const [quizTerminou, setQuizTerminou] = useState(false);
 
+const [perguntaAtual, setPerguntaAtual] = useState(0);
+useEffect(() => {
+  console.log(`Effect Total: ${Total}`);
+}, [Total, quizTerminou]);
   function calcularPontos(elemento) {
     const pontos = parseInt(elemento.getAttribute("pontos"));
+    
     setTotal(Total + pontos);
+    console.log(Total)
   }
+
   function verificarFim() {
     const proximaPergunta = perguntaAtual + 1;
     const buttons = document.querySelectorAll(".alternativa button");
@@ -89,6 +96,7 @@ function Quiz() {
 
   function mostrarResultado() {
     let tipo;
+    console.log(Total)
     if (Total <= 4) {
       tipo = "A";
     } else if (Total <= 8) {
