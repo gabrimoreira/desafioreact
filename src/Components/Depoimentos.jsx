@@ -3,7 +3,7 @@ import "../Style/Depoimentos.css"
 function Depoimentos(){
     const [Depoimentos, setDepoimentos] = useState([]);
     useEffect(()=>{
-    fetch("http://localhost:5000/depoimentos", {
+    fetch("https://fake-api-vercel-eosin.vercel.app/depoimentos", {
         method: "GET",
         headers:{
             'Content-Type': 'application/json',
