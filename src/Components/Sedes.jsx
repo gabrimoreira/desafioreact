@@ -3,7 +3,7 @@ import "../Style/Sedes.css"
 function Sedes(){
     const [Sedes, setSedes] = useState([]);
     useEffect(()=>{
-    fetch("http://localhost:5000/sedes", {
+    fetch("https://fake-api-vercel-eosin.vercel.app/sedes", {
         method: "GET",
         headers:{
             'Content-Type': 'application/json',
