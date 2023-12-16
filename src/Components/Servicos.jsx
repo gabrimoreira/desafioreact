@@ -3,7 +3,7 @@ import "../Style/Servicos.css"
 function Servicos(){
     const [Servicos, setServicos] = useState([]);
     useEffect(()=>{
-    fetch("http://localhost:5000/Servicos", {
+    fetch("https://fake-api-vercel-eosin.vercel.app/servicos", {
         method: "GET",
         headers:{
             'Content-Type': 'application/json',
