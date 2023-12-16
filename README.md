@@ -1,3 +1,7 @@
+#Conexão com api Vercel
+Vídeo seguido:https://www.youtube.com/watch?v=A--aYRbzKdU
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
