@@ -31,7 +31,7 @@ console.log(Depoimentos)
         
         <>
         <section className="main-container">
-            <h1 className="titulo">
+            <h1 className="tituloDepoimento">
             Depoimentos
             </h1>
             <div className="cards">

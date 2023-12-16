@@ -5,3 +5,12 @@
 .texto{
     font-size: 30px;
 }
+@media (max-width: 430px) {
+    .titulo{
+        font-size: 80px;
+    }
+    
+    .texto{
+        font-size: 30px;
+    }
+}
