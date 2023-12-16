@@ -33,5 +33,22 @@
         "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis neque ut lacus mollis ullamcorper. Fusce vitae metus quis nibh sollicitudin varius.",
         "imagem": "/Images/servico3.jpg"
       }
+    ],
+    "sedes": [
+      {
+        "Local": "Fortaleza/Ce",
+        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisl vitae leo aliquet tincidunt. Morbi auctor augue id nisi blandit, quis faucibus eros consequat.",
+        "imagem": "/Images/sede1.jpg"
+      },
+      {
+        "Local": "Rio de Janeiro/RJ",
+        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus euismod sem vel nisi lacinia, ac luctus lorem sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+        "imagem": "/Images/sede2.jpg"
+      },
+      {
+        "Local": "São Paulo/SP",
+        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis neque ut lacus mollis ullamcorper. Fusce vitae metus quis nibh sollicitudin varius.",
+        "imagem": "/Images/Sede3.jpg"
+      }
     ]
 }
